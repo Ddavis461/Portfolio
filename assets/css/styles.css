@@ -339,7 +339,7 @@ svg {
 }
 
 .button:hover {
-  box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, 0.25);
+  box-shadow: 0 8px 30px hsla(var(--hue), 100%, 40%, 0.35);
 }
 
 /*=============== ABOUT ===============*/
@@ -472,7 +472,7 @@ svg {
   height: 100%;
   background: linear-gradient(
     180deg,
-    hsla(0, 0%, 0%, 0) 0%,
+    hsl(0, 0%, 100%) 0%,
     hsla(var(--hue), 70%, 40%, 0.8) 120%
   );
   backdrop-filter: blur(4px);
